@@ -4,7 +4,7 @@
 Для работы LaTeX, необходимо скачать сам [LaTeX](https://miktex.org/download), скачать python и установить pygmentize.
 
 ## Компиляция
-Для компиляции в консоли набираем следующую команду: xelatex -shell-escape -halt-on-error _имя_файла_
+Для компиляции в консоли набираем следующую команду: ```xelatex -shell-escape -halt-on-error _имя_файла_```
 
 ## Программа для работы
 Для работы с LaTeX документами удобно использовать [TeXstudio](https://texstudio.sourceforge.net/).
