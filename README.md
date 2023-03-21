@@ -1,10 +1,23 @@
 # LatexTemplate
 
 ## Установка
-Для работы LaTeX, необходимо скачать сам [LaTeX](https://miktex.org/download), скачать python и установить pygmentize.
+Для работы LaTeX, необходимо скачать сам [LaTeX](https://miktex.org/download), скачать python и установить pygmentize(python -m pip install Pygments).
+
+Далее необходимо обновить LaTeX до последней версии. Для этого открываем MiKTeX Console от имени администратора и скачиваем все пакеты и обновления. Консоль может ругаться, но продолжит обновлять пакеты - **дождитесь обновления пакетов**.
+
+![image](https://user-images.githubusercontent.com/86663719/226546812-cee77cee-b2e5-440e-a901-532f247520f3.png)
+
+
+Перейдите в командную строку windows и наберите:
+
+```java
+xelatex -version
+```
+
+Командная строка затупит, а потом доустановит нужные пакеты.
 
 ## Компиляция
-Для компиляции в консоли набираем следующую команду: ```xelatex -shell-escape -halt-on-error _имя_файла_```
+Для компиляции в консоли набираем следующую команду: ```xelatex -shell-escape -halt-on-error -8bit _имя_файла_```
 
 ## Программа для работы
 Для работы с LaTeX документами удобно использовать [TeXstudio](https://texstudio.sourceforge.net/).
