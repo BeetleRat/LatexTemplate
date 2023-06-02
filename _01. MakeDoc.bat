@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 set "fileRead=refman.tex"
-set "fileWrite=generated_content.tex"
+set "fileWrite=_02_generated_content.tex"
 set "mainFile=report.tex"
 set "bulidFile=make.bat"
 set "searchStart=%--- Begin generated contents ---"
