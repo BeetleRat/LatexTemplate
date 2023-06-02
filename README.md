@@ -18,6 +18,6 @@ xelatex -version
 Командная строка затупит, а потом до установит нужные пакеты.
 
 ## Работа со сгенерированной Doxygen документацией
-Скопируйте данный репозиторий в папку latex сгенерированную Doxygen, таким образом, чтобы файлы: «01. MakeDoc.bat», «generated_content.tex», «report.tex» и папка «preamble» находились в одной папке с файлами «refman.tex» и make.bat.
+Скопируйте данный репозиторий в папку latex сгенерированную Doxygen, таким образом, чтобы файлы: «_01. MakeDoc.bat», «_02_generated_content.tex», «report.tex» и папка «preamble» находились в одной папке с файлами «refman.tex» и make.bat.
 
-Запустите файл «01. MakeDoc.bat».
+Запустите файл «_01. MakeDoc.bat».
