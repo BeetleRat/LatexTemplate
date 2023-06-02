@@ -1,19 +1,21 @@
 \input{preamble/preamble.tex}
 
 \begin{document}
-	\input{title.tex}
+	\raggedbottom
+	% Titlepage & ToC
+	% To avoid duplicate page anchors due to reuse of same numbers for
+	% the index (be it as roman numbers)
+	\hypersetup{pageanchor=false,
+		bookmarksnumbered=true,
+		pdfencoding=unicode
+	}
+	\pagenumbering{alph}
 	
-	\section*{Цель работы}
-	
-	\section*{Задание}
-	
-	\newpage
-	\section*{Ход работы}
-	
-	\newpage
-	\section*{Листинг программы}
-	
-	\newpage
-	\section*{Выводы}
-	
+	\pagenumbering{roman}
+	\pagenumbering{arabic}
+	% re-enable anchors again
+	\hypersetup{pageanchor=true}
+	%--- Begin generated contents ---	
+	\input{generated_content}	
+	%--- End generated contents ---	
 \end{document}
